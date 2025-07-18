@@ -19,7 +19,8 @@ jobs:
          uses: actions/setup-node@v3
            
        - name: Set CLI Config
-         run: jf npm-config --global=true --repo-resolve=acme-nom-npm --repo-deploy=acme-nom-npm
+         run: jf npm-config --global=true --repo-resolve=tiger-dev-local --repo-deploy=tiger-dev-local
+         # run: jf npm-config --global=true --repo-resolve=acme-nom-npm --repo-deploy=acme-nom-npm
            
        - name: Install Deps
          run: jf npm install
