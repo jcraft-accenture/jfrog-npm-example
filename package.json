@@ -15,6 +15,9 @@
   ],
   "author": "Yonatan Arbel",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://tsgca.jfrog.io/artifactory/api/npm/panther-dev-local/"
+  },
   "bugs": {
     "url": "https://github.com/yonarbel/create-package-example/issues"
   },
