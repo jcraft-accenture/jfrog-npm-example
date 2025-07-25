@@ -21,7 +21,7 @@ jobs:
        - name: Set CLI Config
          run: jf npm-config --global=true --repo-resolve=acme-nom-npm --repo-deploy=panther-dev-local
          # run: jf npm-config --global=true --repo-resolve=acme-nom-npm --repo-deploy=acme-nom-npm
-           
+         # run: <cli>
        - name: Install Deps
          run: jf npm install
            
